@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-expand-lg static-top">
+        <div class="container">
+        <a class="navbar-brand" href="#">
+            <b>COMPANY</b>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    ABOUT
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">HISTORY</a></li>
+                        <li><a class="dropdown-item" href="#">VISION MISSION</a></li>
+                    
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">OUR WORK</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">OUR TEAM</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">CONTACT</a>
+                </li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+  
+    <section class="slider-wrapper">
+        <button class="slide-arrow" id="slide-arrow-prev">
+          &#8249;
+        </button>
+        <button class="slide-arrow" id="slide-arrow-next">
+          &#8250;
+        </button>
+        <ul class="slides-container" id="slides-container">
+          <li class="slide">
+            <p id="satu"><b>THIS IS A PLACE WHERE TECHNOLOGY & CREATIVITY FUSED INTO DIGITAL CHEMISTRY</b></p>
+          </li>
+          <li class="slide">
+            <p id="dua"><b>WE DON'T HAVE THE BEST BUT WE HAVE THE GREATEST TEAM</b></p>
+          </li>
+        </ul>
+    </section>
+
+    <ul class="dot-nav">
+        <li><span id="dot-1"></span></li>
+        <li><span id="dot-2"></span></li>
+      </ul>
+      
+    </div>
+
+    <section class="cards">
+        <div class="container py-5">
+            <div class="row text-center text-black">
+                <div class="col-lg-8 mx-auto">
+                    <h1 class="display-3"><b><h2>OUR VALUES</h2></b></h1>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row text-center">
+        
+                <!-- Team item -->
+                <div class="col">
+                    <div class="rounded bg1 shadow-sm py-5 px-4"><img src="/assets/lightbulb-o.png" alt="" width="20" height="40">
+                        <h5 class="mb-0">INNOVATIVE</h5>
+                        <span class="small text-white"><p class="lorem-text">Lorem Ipsum: dolor sit amet, consectetur adipisicing elit. Integer non magna vitae tellus</p></span>
+                        
+                    </div>
+                </div><!-- End -->
+        
+                <!-- Team item -->
+                <div class="col">
+                    <div class="rounded bg2 shadow-sm py-5 px-4"><img src="/assets/bank.png" alt="" width="40" height="40">
+                        <h5 class="mb-0">LOYALTY</h5>
+                        <span class="small text-white"><p class="lorem-text">Lorem Ipsum: dolor sit amet, consectetur adipisicing elit. Integer non magna vitae tellus</p></span>
+                    </div>
+                </div><!-- End -->
+        
+                <!-- Team item -->
+                <div class="col">
+                    <div class="rounded bg3 shadow-sm py-5 px-4"><img src="/assets/balance-scale.png" alt="" width="40" height="40" >
+                        <h5 class="mb-0">RESPECT</h5>
+                        <span class="small text-white"><p class="lorem-text">Lorem Ipsum: dolor sit amet, consectetur adipisicing elit. Integer non magna vitae tellus</p></span>
+
+                    </div>
+                </div><!-- End -->
+                
+                
+            </div>
+        </div>
+
+    </section>
+
+    <section class="contact-form">
+        <div class="container py-5">
+            <div class="row text-center text-black">
+                <div class="col-lg-8 mx-auto">
+                    <h1 class="display-3"><b><h2>CONTACT US</h2></b></h1>
+                </div>
+            </div>
+        </div>
+        <form name="validasi" action="/"  onsubmit="return validate()">
+            <div class="form-inner">
+              <input id="name" name="name" type="text" placeholder="Name">
+              <p id="nameloc"></p>
+              <input id="email" name="email" type="email" placeholder="Email">
+              <p id="emailloc"></p>
+              <textarea id="message" placeholder="Message..." rows="5"></textarea>
+              <p id="messageloc"></p>
+              <button class="submit" type="submit" href="/">SUBMIT</button>
+            </div>
+        </form>
+    </section>
+    <footer>
+        <p>Copyright @ 2016. PT Company</p>
+        <img src="assets/facebook-official.png" alt="facebook-official"></img>
+        <img src="assets/twitter.png" alt="twitter"></img>
+      </footer>
+    
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
